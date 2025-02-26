@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('checking') {
             steps {
-                git branch: 'w6-inclass', url: 'https://github.com/tuMetropolia/Calculator.git'
+                git branch: 'w6-inclass-jacoco', url: 'https://github.com/tuMetropolia/Calculator.git'
             }
         }
 
